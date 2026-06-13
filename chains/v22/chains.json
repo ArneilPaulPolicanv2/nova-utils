@@ -8608,7 +8608,7 @@
     {
         "chainId": "2985e778bb748c70e450dcc084cc7da79fe742cc23d3b040abd7028187de69c",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-        "name": "Xode ",
+        "name": "Xode",
         "assets": [
             {
                 "assetId": 0,
@@ -8632,7 +8632,7 @@
                 "assetId": 2,
                 "symbol": "MPC",
                 "precision": 12,                
-                "priceId": "multi-protocol-coin",
+                "priceId": "my-paqman-coin",
                 "icon": "MPC.png",
                 "type": "statemine",
                 "typeExtras": {
@@ -8647,7 +8647,6 @@
                 "type": "statemine",
                 "typeExtras": {
                     "assetId": "50000111"
-                    "isSufficient": true
                 }
             },
             {
@@ -8658,7 +8657,8 @@
                 "icon": "DOT.svg",
                 "type": "statemine",
                 "typeExtras": {
-                    "assetId": "100000000"
+                    "assetId": "100000000",
+                    "isSufficient": true
                 }
             },
             {
@@ -8666,7 +8666,7 @@
                 "symbol": "GEM",
                 "precision": 12,  
                 "priceId": "mythical-gem",
-                "icon": "gem.gif",
+                "icon": "GEM.gif",
                 "type": "statemine",
                 "typeExtras": {
                     "assetId": "1000000001"
@@ -8695,7 +8695,7 @@
         ],
         "nodes": [
             {
-                "url": "wss://rpc-kr.xode.net",
+                "url": "wss://rakson-archive.xode.net",
                 "name": "RakSon archive node Korea"
             },
             {
